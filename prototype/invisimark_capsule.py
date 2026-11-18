@@ -18,8 +18,8 @@ MAGIC = b"IVMKCAP1"
 MAX_IMAGE = 12 * 1024 * 1024
 MAX_CAPSULE = MAX_IMAGE + 2048
 MAX_HEADER = 1024
-PNG_MAGIC = b"\\x89PNG\\r\\n\\x1a\\n"
-JPEG_MAGIC = b"\\xff\\xd8\\xff"
+PNG_MAGIC = b"\x89PNG\r\n\x1a\n"
+JPEG_MAGIC = b"\xff\xd8\xff"
 
 
 class CapsuleError(Exception):
